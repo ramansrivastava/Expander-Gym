@@ -1,0 +1,101 @@
+.gallery-img {
+    width: 100%;
+    height: 250px; /* Adjust the height as per your design */
+    object-fit: cover; /* Ensures the image maintains aspect ratio while filling the area */
+  }
+/* Custom CSS to enforce orange and black theme */
+
+/* General theme styling */
+body, html {
+    background-color: black;
+    color: orange;
+  }
+  
+  .navbar-dark .navbar-brand,
+  .navbar-dark .nav-link {
+    color: orange;
+  }
+  
+  .navbar-dark .nav-link:hover {
+    color: #ffcc66;
+  }
+  
+  /* Headers and sections */
+  header {
+    background-color: black;
+    color: orange;
+  }
+  
+  .hero {
+    background-color: orange;
+    color: black;
+  }
+  
+  .services {
+    background-color: black;
+    color: orange;
+  }
+  
+  .testimonials {
+    background-color: orange;
+    color: black;
+  }
+  
+  .contact {
+    background-color: black;
+    color: orange;
+  }
+  
+  /* Gallery images */
+  .gallery-img {
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .gallery-img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Cards */
+  .card {
+    background-color: darkgray;
+  }
+  
+  .card-title {
+    color: orange;
+  }
+  
+  .card-text {
+    color: #ffcc66;
+  }
+  
+  .card:hover {
+    background-color: #ff6600;
+    color: black;
+  }
+  
+  /* Buttons */
+  .btn-orange {
+    background-color: orange;
+    color: black;
+  }
+  
+  .btn-orange:hover {
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: orange;
+    color: black;
+  }
+  
+  footer a {
+    color: black;
+  }
+  
+  footer a:hover {
+    color: white;
+  }
+    
